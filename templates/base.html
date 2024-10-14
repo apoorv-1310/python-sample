@@ -1,0 +1,20 @@
+<!-- app_name/templates/loop.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Django Sample app</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+</head>
+
+<body>
+    <div class="container mx-auto">
+        {% block content %}
+        {% endblock %}
+    </div>
+</body>
+</html>
